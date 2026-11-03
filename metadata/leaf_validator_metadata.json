@@ -1,0 +1,12 @@
+{
+    "model_name": "CropShield Leaf Suitability Validator",
+    "input_size": [
+        128,
+        128
+    ],
+    "output": "leaf_probability",
+    "suitable_leaf_threshold": 0.8,
+    "uncertain_threshold": 0.3,
+    "test_accuracy_on_internal_dataset": 1.0,
+    "known_limitation": "Internal evaluation uses PlantVillage leaves and CIFAR-10 negatives; broader real-world validation is required."
+}

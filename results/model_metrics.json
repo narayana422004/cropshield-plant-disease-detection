@@ -1,0 +1,17 @@
+{
+    "model_name": "CropShield MobileNetV2 Fine-tuned",
+    "number_of_classes": 38,
+    "image_size": [
+        224,
+        224
+    ],
+    "test_images": 5431,
+    "test_loss": 0.10019274055957794,
+    "test_accuracy": 0.9703553915023804,
+    "test_top_3_accuracy": 0.9970539212226868,
+    "macro_precision": 0.966227502214355,
+    "macro_recall": 0.9661953592694561,
+    "macro_f1": 0.9657168587644369,
+    "weighted_f1": 0.9704698576676906,
+    "best_fine_tuning_epoch": 13
+}

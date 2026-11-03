@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local prediction history (personal data, regenerated automatically)
+data/history.json
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit local secrets (NEVER commit this)
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+
+# VS Code settings (optional — remove this line if you want to share your settings)
+.vscode/
+
+# Backup/broken model files from debugging
+*.bak
+*_BROKEN.keras
